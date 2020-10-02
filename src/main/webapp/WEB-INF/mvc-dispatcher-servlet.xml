@@ -62,9 +62,9 @@
 
 	<bean name="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 			<property name="driverClassName" value="org.postgresql.Driver" />
-			<property name="url" value="jdbc:postgresql://localhost:5432/MIC3" />
+			<property name="url" value="jdbc:postgresql://localhost:5432/DBNAME" />
 			<property name="username" value="postgres" />
-			<property name="password" value="posproject" />
+			<property name="password" value="DBPASSWORD" />
 	</bean>	
 	<bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
